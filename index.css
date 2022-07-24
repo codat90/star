@@ -330,6 +330,7 @@ body {
   top: 4%;
   position: absolute;
   margin-bottom: 5px;
+  border-radius: 10px;
 }
 #feed-content-2 {
   background-color: #1B1B1E;
@@ -339,6 +340,7 @@ body {
   top: 20%;
   position: absolute;
   margin-bottom: 5px;
+  border-radius: 10px;
 }
 
 #contact {
@@ -358,6 +360,7 @@ body {
   left: 4%;
   top: -5%;
   position: relative;
+  border-radius: 10px;
 }
 #cont p {
   color: #AFFFE7;
