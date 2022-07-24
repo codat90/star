@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
   background-color: rgb(26, 26, 26);
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -310,14 +311,97 @@ body {
 }
 
 #feed {
-	background-color: #AFFFE7;
+	background-color: rgba(241, 241, 241, 0.3);
 	height: 80%;
 	width: 30%;
+  border-radius: 20px;
 	position: absolute;
-	top: 0%;
-	left: 0;
+	top: 10%;
+	left: 6%;
 }
 
+#feed p {
+  color: #AFFFE7;
+  position: relative;
+}
+#feed-content-1 p {
+  text-align: center;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-130%);
+  font-weight: 600;
+}
+#feed-content-2 p {
+  color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 1.2rem;
+}
+#feed-content-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+#feed-content-1 {
+  background-color: #1B1B1E;
+  width: 90%;
+  height: 11%;
+  left: 5%;
+  top: 4%;
+  position: absolute;
+  margin-bottom: 5px;
+}
+#feed-content-2 {
+  background-color: #1B1B1E;
+  width: 90%;
+  height: 75%;
+  left: 5%;
+  top: 20%;
+  position: absolute;
+  margin-bottom: 5px;
+}
+
+#contact {
+  background-color: rgba(241, 241, 241, 0.3);
+  height: 30%;
+	width: 30%;
+  border-radius: 20px;
+	position: absolute;
+	top: 60%;
+	left: 64%;
+}
+
+.contact {
+  background-color: #1B1B1E;
+  width: 92%;
+  height: 25%;
+  left: 4%;
+  top: -5%;
+  position: relative;
+}
+#cont p {
+  color: #AFFFE7;
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#foru {
+  height: 25%;
+  margin-top: -4%;
+}
+#foru a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+#foru p {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 @keyframes loader {
   0% {
