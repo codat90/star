@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="#" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loader-wrapper">
+      <p class="loader"><i class="fab fa-redhat"></i></p>
+    </div>
+    <img id="backgroundHQ" src="Gallery/ambulance.png" draggable="false" />
+    <div id="bgText">
+      <p id="tgf">Valrise Gaming</p>
+      <p>San Andreas Star</p>
+    </div>
+    <div id="longpage">
+      <div id="menu">
+        <button id="button">MENU</button>
+        <div class="progress" id="forum"><p><div class="ghost" id="fforum"><p></p></div></p></div>
+        <div class="progress" id="history"><p><div class="ghost" id="fhistory"><p></p></div></p></div>
+        <div class="progress" id="media"><p><div class="ghost" id="fmedia"><p></p></div></p></div>
+        <div class="progress" id="hierachy"><p><div class="ghost" id="fhierarchy"><p></p></div></p></div>
+        <div class="progress" id="discord"><p><div class="ghost" id="fdiscord"><p></p></div></p></div>
+        <div class="progress" id="diamond1"><p><div class="ghost" id="fdiamond1"><p></p></div></p></div>
+        <div class="progress" id="diamond2"><p><div class="ghost" id="fdiamond2"><p></p></div></p></div>
+        <div class="progress" id="diamond3"><p><div class="ghost" id="fdiamond3"><p></p></div></p></div>
+        <div class="progress" id="diamond4"><p><div class="ghost" id="fdiamond4"><p></p></div></p></div>
+        <div class="progress" id="diamond5"><p><div class="ghost" id="fdiamond5"><p></p></div></p></div>
+      </div>
+
+	  <div id="navbar">
+		<button id="closebtn">&times;</button>
+		<video id="video" loop autoplay muted>
+			<source src="Gallery/earth.mp4" type="video/mp4">
+		</video>
+		<div id="feed"></div>
+	  </div>
+
+	  <img id="credit" src="Gallery/Juliette.webp" draggable="false">
+    </div>
+
+	<script>
+		$("#button").click(function() {
+			$(".progress").addClass('glow');
+			$( ".ghost" ).animate({ opacity: 1, left: 0}, 1000, function() {
+				var x = document.getElementsByClassName('progress');
+				Array.from(x).forEach(function(x) {
+					x.style.overflow = "visible";
+				$("#navbar").delay(200).animate({ top: 0 }, {duration: 1000, queue: false});
+			});
+			});	
+		})
+		$('#closebtn').click(function () {
+			$("#navbar").animate({ top: '100%' }, {duration: 1000, queue: false});
+		}) 
+	</script>
+	<script
+	src="http://kit.fontawesome.com/a5a841ddfe.js"
+	crossorigin="anonymous">
+	</script>
+  	<script src="index.js"></script>
+  	<link rel="preconnect" href="https://fonts.gstatic.com" />
+  	<link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
