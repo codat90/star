@@ -382,6 +382,18 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+#logo {
+  height: 50%;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5%;
+  left: 64%;
+  object-fit:contain;
+  pointer-events: none;
+}
+
 
 @keyframes main {
   0% {
