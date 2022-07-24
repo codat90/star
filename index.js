@@ -1,13 +1,3 @@
-$(window).on("load",function(){
-	$(".loader-wrapper").fadeOut("slow");
-});
-
-document.onreadystatechange = function () {
-	if(document.readyState === 'complete') {
-		document.body.style.overflow = 'visible';
-	}
-}
-
 // PAGE SCROLL //
 function scrollTopAnimated() {
 	$("html, body").animate(
