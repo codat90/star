@@ -1,6 +1,6 @@
 {
-	"short_name": "PWA",
 	"name": "Progressive Web App",
+	"short_name": "PWA",
 	"icons": [
 		{
 			"src": "../Gallery/icon.png",
