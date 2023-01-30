@@ -8,7 +8,7 @@
 			"type": "image/png"
 		}
 	],
-	"start_url": "https://www.valrise-star.com/pwa/",
+	"start_url": ".",
 	"display": "standalone",
 	"theme_color": "#FF0000",
 	"background_color": "#ffffff"
