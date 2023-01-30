@@ -8,11 +8,11 @@
 	<script>
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {
-				navigator.serviceWorker.register('/service-worker.js');
+				navigator.serviceWorker.register('../PWA/service-worker.js');
 			});
 		}
 	</script>
-	<link rel="manifest" href="/manifest.json">
+	<link rel="manifest" href="../PWA/manifest.json">
 	<title>PWA</title>
 </head>
 <body>
