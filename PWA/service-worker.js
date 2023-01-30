@@ -7,6 +7,8 @@ self.addEventListener('install', function (event) {
 				'../PWA/index.html',
 				'../PWA/style.css',
 				'../PWA/app.js'
+				'../PWA/Gallery/icon190.png'
+				'../PWA/Gallery/icon320.png'
 			]);
 		})
 	);
