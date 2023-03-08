@@ -371,6 +371,21 @@ body {
   transform: translateY(-50%);
 }
 
+#cont a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.discord {
+  background-color: #1B1B1E;
+  width: 92%;
+  height: 25%;
+  left: 4%;
+  top: -5%;
+  position: relative;
+  border-radius: 10px;
+}
 #disc p {
   color: #AFFFE7;
   position: relative;
@@ -380,6 +395,21 @@ body {
   transform: translateY(-50%);
 }
 
+#disc a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.forum {
+  background-color: #1B1B1E;
+  width: 92%;
+  height: 25%;
+  left: 4%;
+  top: -5%;
+  position: relative;
+  border-radius: 10px;
+}
 #foru p {
   color: #AFFFE7;
   position: relative;
@@ -389,21 +419,12 @@ body {
   transform: translateY(-50%);
 }
 
-#foru {
-  height: 25%;
-  margin-top: -4%;
-}
 #foru a {
   color: white;
   font-size: 2rem;
   text-decoration: none;
 }
-#foru p {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 #logo {
   height: 50%;
   width: 30%;
