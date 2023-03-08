@@ -344,23 +344,23 @@ body {
 }
 
 #contact {
-  background-color: rgba(241, 241, 241, 0.3);
-  height: 30%;
-	width: 30%;
-  border-radius: 20px;
-	position: absolute;
-	top: 60%;
-	left: 64%;
+    background-color: rgba(241,241,241,.3);
+    height: 37%;
+    width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 64%;
 }
 
 .contact {
-  background-color: #1B1B1E;
-  width: 92%;
-  height: 25%;
-  left: 4%;
-  top: -2%;
-  position: relative;
-  border-radius: 10px;
+    background-color: #1b1b1e;
+    width: 92%;
+    height: 25%;
+    left: 4%;
+    top: -2%;
+    position: relative;
+    border-radius: 10px;
 }
 #cont p {
   color: #AFFFE7;
@@ -378,13 +378,13 @@ body {
 }
 
 .discord {
-  background-color: #1B1B1E;
-  width: 92%;
-  height: 25%;
-  left: 4%;
-  top: -2%;
-  position: relative;
-  border-radius: 10px;
+    background-color: #1b1b1e;
+    width: 92%;
+    height: 25%;
+    left: 4%;
+    top: -10%;
+    position: relative;
+    border-radius: 10px;
 }
 #disc p {
   color: #AFFFE7;
@@ -402,13 +402,13 @@ body {
 }
 
 .forum {
-  background-color: #1B1B1E;
-  width: 92%;
-  height: 25%;
-  left: 4%;
-  top: -2%;
-  position: relative;
-  border-radius: 10px;
+    background-color: #1b1b1e;
+    width: 92%;
+    height: 25%;
+    left: 4%;
+    top: -18%;
+    position: relative;
+    border-radius: 10px;
 }
 #foru p {
   color: #AFFFE7;
